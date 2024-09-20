@@ -1,0 +1,31 @@
+# Airflow virtual env
+airflow-env/
+
+# Airflow configs and logs
+airflow/logs
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/dags/__pycache__/
+airflow/airflow-webserver.pid
+airflow/webserver_config.py
+
+# Postgres driver
+postgresql-42.7.4.jar
+
+# Streaming temp folders
+profiles/stream_read_temp
+profiles/stream_write_temp
+tracking/stream_read_temp
+tracking/stream_write_temp
+
+# Streaming files and messages
+profiles/files/*.csv
+profiles/messages/.part-*.crc
+profiles/messages/*.json
+tracking/files/*.csv
+tracking/messages/.part-*
+tracking/messages/part-*.json
+
+# Spark metadata
+profiles/messages/_spark_metadata
+tracking/messages/_spark_metadata

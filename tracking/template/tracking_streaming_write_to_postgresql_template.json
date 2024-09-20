@@ -1,0 +1,47 @@
+[
+    {
+        "name": "purchase_date",
+        "type": "DateType",
+        "nullable": false
+    },
+    {
+        "name": "user_id",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "transaction_id",
+        "type": "StringType",
+        "nullable": false
+    },
+    {
+        "name": "revenue",
+        "type": "FloatType",
+        "nullable": true
+    },
+    {
+        "name": "products_count",
+        "type": "IntegerType",
+        "nullable": true
+    },
+    {
+        "name": "store_id",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "store_name",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "seller_id",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "seller_name",
+        "type": "StringType",
+        "nullable": true
+    }
+]

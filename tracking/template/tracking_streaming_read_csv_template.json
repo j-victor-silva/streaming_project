@@ -1,0 +1,47 @@
+[
+    {
+        "name": "dt_compra",
+        "type": "StringType",
+        "nullable": false
+    },
+    {
+        "name": "usuario",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "id_transacao",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "valor_compra",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "qtd_produtos",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "id_loja",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "nome_loja",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "id_vendedor",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "nome_vendedor",
+        "type": "StringType",
+        "nullable": true
+    }
+]

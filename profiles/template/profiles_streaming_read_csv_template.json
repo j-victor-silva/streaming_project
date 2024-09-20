@@ -1,0 +1,52 @@
+[
+    {
+        "name": "usuario",
+        "type": "StringType",
+        "nullable": false
+    },
+    {
+        "name": "nome",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "telefone",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "email",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "endereco",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "cidade",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "estado",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "genero",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "dt_aniversario",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "dt_cadastro",
+        "type": "StringType",
+        "nullable": false
+    }
+]

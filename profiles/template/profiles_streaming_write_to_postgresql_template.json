@@ -1,0 +1,52 @@
+[
+    {
+        "name": "user_id",
+        "type": "StringType",
+        "nullable": false
+    },
+    {
+        "name": "name",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "phone",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "email",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "adress",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "city",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "state",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "gender",
+        "type": "StringType",
+        "nullable": true
+    },
+    {
+        "name": "birthday",
+        "type": "DateType",
+        "nullable": true
+    },
+    {
+        "name": "created_at",
+        "type": "TimestampType",
+        "nullable": false
+    }
+]
